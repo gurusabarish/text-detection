@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request, jsonify
+import os
 # Loading the necessary packages
 import numpy as np
 import cv2
@@ -161,4 +162,5 @@ def index():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(debug=True, port=port)
