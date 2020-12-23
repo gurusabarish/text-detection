@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, jsonify
 # Loading the necessary packages
 import numpy as np
-import cv2
+from cv2 import cv2
 from imutils.object_detection import non_max_suppression
 import pytesseract
 import urllib.request
