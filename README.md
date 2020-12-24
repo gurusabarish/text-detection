@@ -1,4 +1,4 @@
-<div  style="text-align:center;">
+<div align="center">
 
 # Text-detection 
 Text detection from jpg image using pytesseract.
